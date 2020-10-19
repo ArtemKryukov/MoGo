@@ -1,0 +1,583 @@
+.section{
+    background: url(../img/bg.jpg) no-repeat center;
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+.logo{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav_menu{
+    position: relative;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color .1s linear ;
+}
+
+.nav_menu:hover{
+    color: #fce38a;
+}
+
+.nav_menu::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fce38a;
+    position: absolute;
+    display: none;
+    
+}
+
+.nav_menu:hover::after{
+    display: block;
+    
+}
+
+.header_svg{
+    margin-left: 20px;
+}
+
+.subtitle{
+    margin-top: 80px;
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title{
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.btn{
+    margin-bottom: 150px;
+    margin-left: 15px;
+    margin-top: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 8px 15px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.header_bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_1{
+    position: relative;
+    width: 23%;
+    border-top: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.header_bot{
+    margin-top: 10px;
+}
+
+.bot_num{
+    font-family: "Montserrat - Bold";
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/* block_2 */
+
+.block_2_title{
+    margin-top: 80px;
+    text-align: center;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.block_2_subtitle{
+    margin-top: 15px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block_2_subtitle:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.block_2_text{
+    margin-top: 20px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.block_2_text span{
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+.about_item .about_img {
+    transition: transform .1s linear;
+    background: linear-gradient(left bottom,#f38181 ,#fce38a);
+}
+
+.about_item img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 350px;
+    height: 250px;
+    
+}
+
+
+
+
+
+.about_item:hover .about_img{
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about_item:hover  img{
+    opacity: .4;
+    
+}
+
+.about_item img{
+    transition: opacity .1s linear;
+}
+
+
+
+
+/* block_3 */
+
+.block_3{
+    background-color: #95e1d3;
+    margin-top: 80px;
+}
+
+.block_3_content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    width: 20%;
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-left: 1px solid #ffffff
+}
+
+.block_3_content:last-child{
+    border-right: 1px solid #ffffff;
+}
+
+.block_3_content span{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+
+/* block_4 */
+
+
+.block_4{
+    margin-bottom: 25px;
+    margin-top: 80px;
+    border-bottom: 1px solid #e7e7e7
+}
+
+.block_44{
+    margin-top: 25px;
+    
+}
+
+
+.block_4_title{
+    
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.block_4_text{
+    width: 273px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+/* block_5 */
+
+.block_5{
+    background-color: #f8f8f8;
+    margin-top: 70px;
+    
+}
+
+.block_5_mr{
+    margin-bottom: 100px;
+}
+
+.block_5_content{
+    margin-top: 50px;
+
+}
+
+
+
+.header_img{
+    width: 570px;
+}
+
+.colapse{
+    
+    display: flex;
+    margin-top: -70px;
+}
+
+.card_heade{
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.colapse_text{
+    margin-left: 10px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.block_6{
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}
+
+/* block_56 */
+
+.block_56{
+    padding: 90px 0px;
+}
+
+.carusle{
+    display: flex;
+}
+
+.color{
+    color: black;
+}
+
+.carusele_img{
+    margin-left: 119px;
+}
+
+.corusle_text{
+    width: 767px;
+    height: 96px;
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 24px;
+    font-weight: 400;
+margin-left: 60px;    
+}
+
+.name{
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 305px;
+}
+
+.corusle_text:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 25px;
+}
+
+/* block_7 */
+
+.block_7{
+    background-image: url(../img/bg2.svg);
+    background-size: cover;
+}
+
+.block_7_{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+.block_7_text{
+    margin-top: 2rem;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.block_7_span_1{
+    color: #ffffff;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.block_7_span_1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.block_7_span_2{
+    width: 373px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+/* footer */
+
+.footer{
+    background-color:#f8f8f8
+}
+
+.footer_logo{
+    margin-top: 70px;
+    color: #cccccc;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.text_footer{
+    width: 462px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nam_foll{
+    font-family: "Montserrat - Bold";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.follower{
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.follower::after{
+    content: "";
+    display: block;
+    width: 480px;
+    height: 1px;
+    background-color: #e5e5e5;
+
+}
+
+.ussocial{
+    display: flex;
+}
+
+.ussocial p{
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.social{
+    
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.img2{
+    margin-left: 20px;
+}
+
+
+.input{
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+}
+
+
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    margin-top: -1px;
+    margin-left: -10px;
+}
+
+.btn1 p{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.input_footer{
+    margin-bottom: 100px;
+}
+
+h6{
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 70px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inst{
+    justify-content: center;
+}
+
+.vmp{
+    margin-left: 7rem;
+}
+
+.footer_1{
+    display: flex;
+}
+
+.footer_img{
+    width: 119px;
+
+}
+
+.footer_text{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 194px;
+    height: 27px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer_img1{
+    margin-top: 40px;
+    width: 88px;
+    height: 88px;
+}
+.footer_img2{
+    width: 88px;
+    height: 88px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.row_2{
+    margin-top: 10px;
+}
+.row_3{
+    margin-top: 10px;
+}
+
+.end{
+    margin-top: 25px;
+color: #333333;
+font-family: "Kaushan Script";
+font-size: 13px;
+font-weight: 400;
+}
+
+
