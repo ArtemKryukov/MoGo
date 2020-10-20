@@ -381,6 +381,10 @@ margin-left: 60px;
     margin-top: 100px;
 }
 
+.conor{
+    margin-top: -3rem;
+}
+
 
 
 .block_7_text{
@@ -553,13 +557,12 @@ h6{
     text-transform: uppercase;
 }
 
-.footer_img1{
-    margin-top: 40px;
-    width: 88px;
-    height: 88px;
+.footer_img{
+    margin-top: 0px;
+    width: 98px;
 }
 .footer_img2{
-    width: 88px;
+    width: 98px;
     height: 88px;
     margin-left: 5px;
     margin-right: 5px;
@@ -580,4 +583,12 @@ font-size: 13px;
 font-weight: 400;
 }
 
+.namedev{
+    text-align: center;
+   
+}
 
+.footerfooter{
+    border-top: 2px solid  #e5e5e5;;
+    
+}
